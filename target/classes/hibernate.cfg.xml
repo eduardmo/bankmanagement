@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration"> 
+    
+<hibernate-configuration>
+    <session-factory>        
+        <mapping class="com.assig1.business.domainModel.Account" />    
+        <mapping class="com.assig1.business.domainModel.Customer" />
+        <mapping class="com.assig1.business.domainModel.Employee" />
+        <mapping class="com.assig1.business.domainModel.Role" />
+        <mapping class="com.assig1.business.domainModel.EmployeeActivities" />
+    </session-factory>         
+</hibernate-configuration>
